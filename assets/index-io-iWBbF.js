@@ -964,7 +964,7 @@ In order to be iterable, non-array objects must have a [Symbol.iterator]() metho
     width: 1.5rem;
     height: 1.5rem;
   }
-`,EM=Ai.div``;function RM(){return ve.jsx(bC,{children:ve.jsxs(Mb,{children:[ve.jsx(mc,{path:"https://nothing-99.github.io/crypto-tracker/:coinId",children:ve.jsx(wM,{})}),ve.jsx(mc,{path:"https://nothing-99.github.io/crypto-tracker/",children:ve.jsx(kM,{})})]})})}const LM={textColor:"#2d3436",bgColor:"#dfe6e9",accentColor:"#d63031",shadowColor:"#fd79a8"},PM={textColor:"#dfe6e9",bgColor:"#2d3436",accentColor:"#fd79a8",shadowColor:"#6c5ce7"},_M=ab`
+`,EM=Ai.div``;function RM(){return ve.jsx(bC,{children:ve.jsxs(Mb,{children:[ve.jsx(mc,{path:"/:coinId",children:ve.jsx(wM,{})}),ve.jsx(mc,{path:"/",children:ve.jsx(kM,{})})]})})}const LM={textColor:"#2d3436",bgColor:"#dfe6e9",accentColor:"#d63031",shadowColor:"#fd79a8"},PM={textColor:"#dfe6e9",bgColor:"#2d3436",accentColor:"#fd79a8",shadowColor:"#6c5ce7"},_M=ab`
   ${ob};
   * {
     box-sizing: border-box;
