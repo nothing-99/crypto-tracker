@@ -6,10 +6,10 @@ export default function Router() {
   return (
     <BrowserRouter>
       <Switch>
-        <Route path={process.env.PUBLIC_URL + "/:coinId"}>
+        <Route path={`${import.meta.env.VITE_PUBLIC_URL}/:coinId`}>
           <CoinDetail />
         </Route>
-        <Route path={process.env.PUBLIC_URL + "/"}>
+        <Route path={`${import.meta.env.VITE_PUBLIC_URL}/`}>
           <CoinList />
         </Route>
       </Switch>
