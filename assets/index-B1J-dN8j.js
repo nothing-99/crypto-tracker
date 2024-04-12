@@ -917,7 +917,7 @@ In order to be iterable, non-array objects must have a [Symbol.iterator]() metho
     display: block;
   }
   box-shadow: 0 0 8px ${e=>e.theme.shadowColor};
-`;function wM(){const{state:e}=Ib(),{coinId:t}=yC(),r=Mm(":coinId/chart"),s=Mm(":coinId/price"),{isLoading:h,data:f}=po({queryKey:["info",t],queryFn:()=>sT(t)}),{isLoading:x,data:w}=po({queryKey:["price",t],queryFn:()=>oT(t)}),A=h||x;return ve.jsxs(SM,{children:[ve.jsx(gw,{}),ve.jsx(pw,{children:e!=null&&e.name?e==null?void 0:e.name:A?"...Loading":f==null?void 0:f.name}),ve.jsx("main",{children:A?"...Loading":ve.jsxs(ve.Fragment,{children:[ve.jsx(vM,{info:f,price:w}),ve.jsx(yM,{coinId:t,isPriceMatch:!!s,isChartMatch:!!r}),ve.jsxs(Mb,{children:[ve.jsx(mc,{path:"/:coinId/chart",children:ve.jsx(pM,{coinId:`${t}`})}),ve.jsx(mc,{path:"/:coinId/price",children:ve.jsx(bT,{coinId:`${t}`,price:w})})]})]})})]})}const SM=Ai.div`
+`;function wM(){const{state:e}=Ib(),{coinId:t}=yC(),r=Mm(":coinId/chart"),s=Mm(":coinId/price"),{isLoading:h,data:f}=po({queryKey:["info",t],queryFn:()=>sT(t)}),{isLoading:x,data:w}=po({queryKey:["price",t],queryFn:()=>oT(t)}),A=h||x;return ve.jsxs(SM,{children:[ve.jsx(gw,{}),ve.jsx(pw,{children:e!=null&&e.name?e==null?void 0:e.name:A?"...Loading":f==null?void 0:f.name}),ve.jsx("main",{children:A?"...Loading":ve.jsxs(ve.Fragment,{children:[ve.jsx(vM,{info:f,price:w}),ve.jsx(yM,{coinId:t,isPriceMatch:!!s,isChartMatch:!!r}),ve.jsxs(Mb,{children:[ve.jsx(mc,{path:"/crypto-tracker//:coinId/chart",children:ve.jsx(pM,{coinId:`${t}`})}),ve.jsx(mc,{path:"/crypto-tracker//:coinId/price",children:ve.jsx(bT,{coinId:`${t}`,price:w})})]})]})})]})}const SM=Ai.div`
   color: ${e=>e.theme.textColor};
   background-color: ${e=>e.theme.bgColor};
   max-width: 400px;
@@ -964,7 +964,7 @@ In order to be iterable, non-array objects must have a [Symbol.iterator]() metho
     width: 1.5rem;
     height: 1.5rem;
   }
-`,EM=Ai.div``;function RM(){return ve.jsx(bC,{children:ve.jsxs(Mb,{children:[ve.jsx(mc,{path:"/:coinId",children:ve.jsx(wM,{})}),ve.jsx(mc,{path:"/",children:ve.jsx(kM,{})})]})})}const LM={textColor:"#2d3436",bgColor:"#dfe6e9",accentColor:"#d63031",shadowColor:"#fd79a8"},PM={textColor:"#dfe6e9",bgColor:"#2d3436",accentColor:"#fd79a8",shadowColor:"#6c5ce7"},_M=ab`
+`,EM=Ai.div``;function RM(){return ve.jsx(bC,{children:ve.jsxs(Mb,{children:[ve.jsx(mc,{path:"/crypto-tracker//:coinId",children:ve.jsx(wM,{})}),ve.jsx(mc,{path:"/crypto-tracker//",children:ve.jsx(kM,{})})]})})}const LM={textColor:"#2d3436",bgColor:"#dfe6e9",accentColor:"#d63031",shadowColor:"#fd79a8"},PM={textColor:"#dfe6e9",bgColor:"#2d3436",accentColor:"#fd79a8",shadowColor:"#6c5ce7"},_M=ab`
   ${ob};
   * {
     box-sizing: border-box;
