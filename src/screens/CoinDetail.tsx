@@ -61,10 +61,10 @@ export default function CoinDetail() {
 
             {/* Route */}
             <Switch>
-              <Route path="/:coinId/chart">
+              <Route path={`${import.meta.env.VITE_PUBLIC_URL}/:coinId/chart`}>
                 <CoinChart coinId={`${coinId}`} />
               </Route>
-              <Route path="/:coinId/price">
+              <Route path={`${import.meta.env.VITE_PUBLIC_URL}/:coinId/price`}>
                 <CoinPrice
                   coinId={`${coinId}`}
                   price={price as ICoinPrice}
